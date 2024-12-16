@@ -28,6 +28,7 @@ int	get_next_line(int fd, char **line)
 		buff[flag] = '\0';
 		remind = ft_strjoin(remind, buff);
 		if (is_next_line(remind))
+		if (is_next_line(remind))
 			break ;
 	}
 	free(buff);
